@@ -8,7 +8,7 @@ const JobListing = (props) => {
 
   let description = job.description;
   if (!showMore) {
-    description = description.substring(0, 50) + "...";
+    description = description.substring(0, 90) + "...";
   }
 
   const handlToggle = () => {
